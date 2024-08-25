@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | News homepage</title>
+ </head>
+<body>
+  <main>
+  <nav class="nav">
+      <div class="navbar main__menu container">
+            <img class="logo"src="images/logo.svg" alt="logo it is a W.">
+            <!-- <img class="menu__hamburguer"src="images/icon-menu.svg" alt="menu"> -->
+            <div class="list-navigation__items desk_navigation">
+                <ul class="list__items">
+                  <li  class="navbar__menu-item"> <a class="link__navigation" href="index.html#home">Home</a></li>
+                  <li class="navbar__menu-item"> <a class="link__navigation" href="index.html#new">New</a></li>
+                  <li class="navbar__menu-item"> <a class="link__navigation" href="index.html#popular">Popular</a></li>
+                  <li class="navbar__menu-item"> <a class="link__navigation" href="index.html#trending">Trending</a></li>
+                  <li class="navbar__menu-item"> <a class="link__navigation" href="index.html#categories">Categories</a></li>
+                </ul>
+            </div>
+            <!-- mobile menu &hmburger icon -->
+
+          <div class="navbar__mobile-menu">
+              <div class="navbar__mobile-menu-toggle">
+                      
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+              </div>
+              
+              <!-- mobile menu items -->
+              <div class="navbar__mobile-menu-items">
+                  <ul class="navbar__mobile-menu-list">
+                      <li class="navbar__mobile-menu-item"><a href="index.html#home" class="navbar__mobile-menu-link">Home</a></li>
+                      <li class="navbar__mobile-menu-item"><a href="index.html#new" class="navbar__mobile-menu-link">New</a></li>
+                      <li class="navbar__mobile-menu-item"><a href="index.html#popular" class="navbar__mobile-menu-link">Popular</a></li>
+                      <li class="navbar__mobile-menu-item"><a href="index.html#trending" class="navbar__mobile-menu-link">Trending</a></li>
+                      <li class="navbar__mobile-menu-item"><a href="index.html#categories" class="navbar__mobile-menu-link">Categories</a></li>
+                </ul>
+              </div>
+          </div>    
+      </div>
+</nav>
+
+
+ <section class="hero container">
+    <!-- <div class="box-left-side"> -->
+        <div class="left-side">
+          <img class="principal_image"src="images/image-web-3-desktop.jpg" alt="blocks different colours">
+          <img class="mobile_image"src="images/image-web-3-mobile.jpg" alt="blocks different colours">
+        </div>
+
+        <div class="title__box">
+          <h1 class="title">The brigth Future of Web 3.0?</h1>
+        </div>
+
+        <div class="paragraph__box">
+          <p class="paragraph_principal_article">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?</p>
+            <a class="btn btn-hero"href="#"> read more</a>
+        </div>
+
+    <!-- </div> -->
+     
+
+      <div class="articles">
+            <div class="article__one">
+              <h2 class="title-articles"> New</h2>
+              <a class="subtitle__articles">Hydrogren VSElectric Cars</a>
+              <p class="paragraph__articles">Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+
+            <div class="article__two">
+              <a class="subtitle__articles">The Downsides of AI Artistry </a>
+              <p class="paragraph__articles">What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+
+            <div class="article__three">
+              <a class="subtitle__articles">Is VC Funding Drying Up?</a>
+              <p class="paragraph__articles">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+      </div>
+ </section>
+
+
+ <section class="container article__technology">
+  <div class="post__one flex">
+      <img class="article__img"src="images/image-retro-pcs.jpg" alt="Laptops">
+        <div class="description">
+            <span>01</span>
+             <a class="post_title">Reviving Retro PCs</a>
+             <p class="paragraph__post">
+                 What happens when old PCs are given modern upgrades?
+             </p>
+        </div>
+    </div>
+
+
+  <div class="post__two flex">
+      <img class="article__img"src="images/image-top-laptops.jpg" alt="Laptops">
+          <div class="description">
+              <span>02</span>
+                <a class="post_title">Top 10 Laptopts of 2022 </a>
+                <p class="paragraph__post">
+                Our best picks for various needs and budgets.
+              </p>
+            </div>
+    </div>
+
+
+  <div class="post__three flex ">
+        <img class="article__img"src="images/image-gaming-growth.jpg" alt="Laptops">
+          <div class="description">
+             <span>03</span>
+                <a class="post_title"> The Growth of Gaming</a>
+                  <p class="paragraph__post">
+                     Our best picks for various needs and budgets.
+                  </p>
+             </div>
+    </div>
+
+ </section>
+</main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
